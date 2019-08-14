@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Strategery_GmailInboxActions>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_Newsletter/>
+                <Mage_Sendfriend/>
+                <Mage_Core/>
+            </depends>
+        </Strategery_GmailInboxActions>
+    </modules>
+</config>

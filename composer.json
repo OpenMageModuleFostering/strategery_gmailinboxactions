@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Strategery_GmailInboxActions",
+    "type": "magento-module",
+    "license": "GPL",
+    "homepage": "",
+    "description": "Adds Schema.org markup to outgoing emails for Gmails "Actions in the Inbox" features.",
+    "authors": [
+    {
+        "name": "Gabriel Somoza",
+        "email": "work@gabrielsomoza.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

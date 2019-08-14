@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Strategery_GmailInboxActions</name>
+    <version>0.2.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.gnu.org/copyleft/gpl.html">GPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Adds Schema.org markup to outgoing emails for Gmails "Actions in the Inbox" features.</summary>
+    <description>Adds Schema.org markup to outgoing emails. This allows Gmail, for example, to show a special "View Order" button on order update emails. More Gmail features are planned for the future. For more information, visit https://developers.google.com/gmail/actions/overview</description>
+    <notes>First release</notes>
+    <authors><author><name>Gabriel Somoza</name><user>gabrielsomoza</user><email>work@gabrielsomoza.com</email></author></authors>
+    <date>2014-10-16</date>
+    <time>19:06:16</time>
+    <contents><target name="magecommunity"><dir name="Strategery"><dir name="GmailInboxActions"><dir name="Helper"><file name="Data.php" hash="ea26444d38e2841e571e97b537978052"/></dir><dir name="Model"><dir name="Email"><file name="Template.php" hash="ff8abba9364c7c32905b9f93e62c9bae"/></dir></dir><dir name="etc"><file name="config.xml" hash="df09b6f775a5a3ff8dbb9940b9603e7c"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Strategery_GmailInboxActions.xml" hash="2ac16b76cd078456d1280196700f35a0"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>5.6.1</max></php></required></dependencies>
+</package>

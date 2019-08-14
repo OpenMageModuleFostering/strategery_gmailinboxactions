@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Strategery_GmailInboxActions>
+            <version>0.2.0</version>
+        </Strategery_GmailInboxActions>
+    </modules>
+    <global>
+        <models>
+            <strategery_gmailinboxactions>
+                <class>Strategery_GmailInboxActions_Model</class>
+                <resourceModel>strategery_gmailinboxactions_resource</resourceModel>
+            </strategery_gmailinboxactions>
+            <strategery_gmailinboxactions_resource>
+                <class>Strategery_GmailInboxActions_Model_Resource</class>
+            </strategery_gmailinboxactions_resource>
+            <core>
+                <rewrite>
+                    <email_template>Strategery_GmailInboxActions_Model_Email_Template</email_template>
+                </rewrite>
+            </core>
+        </models>
+        <blocks>
+            <strategery_gmailinboxactions>
+                <class>Strategery_GmailInboxActions_Block</class>
+            </strategery_gmailinboxactions>
+        </blocks>
+        <helpers>
+            <strategery_gmailinboxactions>
+                <class>Strategery_GmailInboxActions_Helper</class>
+            </strategery_gmailinboxactions>
+        </helpers>
+    </global>
+</config>
